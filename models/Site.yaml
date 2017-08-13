@@ -1,0 +1,11 @@
+name: 'Website configuration'
+single: true
+
+options:
+    admin:
+        icon: 'setting'
+
+fields:
+    title:
+        name: Title
+        type: text
