@@ -3,6 +3,9 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-use Babble\CLI;
+// Chmod into public, where it'd be run from in production.
+chdir('./public');
 
+// Init CLI.
+use Babble\CLI;
 new CLI();
